@@ -4,13 +4,13 @@ repos:
   #   hooks:
   #     - id: black
 
-  # - repo: https://github.com/PyCQA/isort
-  #   rev: 5.13.2
-  #   hooks:
-  #     - id: isort
-
-  - repo: https://github.com/kynan/nbstripout
-    rev: 0.6.1
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.13.2
     hooks:
-      - id: nbstripout     # limpia los notebooks
-        stages: [pre-commit, pre-push]
+      - id: isort
+
+  # - repo: https://github.com/kynan/nbstripout
+  #   rev: 0.6.1
+  #   hooks:
+  #     - id: nbstripout     # Clean notebook output
+  #       stages: [pre-commit, pre-push]
