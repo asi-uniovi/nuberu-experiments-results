@@ -9,11 +9,16 @@ dependencies = [
     "ipykernel>=6.29.5",
     "ipywidgets>=8.1.7",
     "jupyterlab>=4.4.3",
+    "numpy>=1.26,<2",
     "matplotlib>=3.10.3",
     "pandas>=2.3.0",
     "pyarrow>=20.0.0",
     "seaborn>=0.13.2",
+    "conlloovia"
 ]
+
+[tool.uv.sources]
+conlloovia = { git = "https://github.com/asi-uniovi/conlloovia.git", rev = "c879a79ff3745726e0d4246bc0a6c7570a109f71" }
 
 [dependency-groups]
 dev = [
