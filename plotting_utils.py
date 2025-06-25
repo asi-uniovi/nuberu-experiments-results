@@ -23,7 +23,7 @@ def select_experiment_df(data, distribution, termination, lb, queue_size):
 
 
 def plot_workloads(data, case: str, aggregate_time="1s", ax=None):
-    selected_data = select_experiment_df(data, case, "hard", "simple", "q0")
+    selected_data = select_experiment_df(data, case, "hard", "SWRR", "q0")
     _df_injected_per_second = selected_data.set_index("injected")
     requests_per_second = (
         _df_injected_per_second.groupby("app")["app"]
