@@ -1,6 +1,6 @@
 # Nuberu experiments
 
-This repository is a companion to the paper: "Modular and Reproducible Simulator Architecture for Composable Cloud Systems"
+This repository is a companion to the paper: "Modular and Reproducible Simulator Architecture for Composable Cloud Systems" by Rubén Luque, José Luis Díaz, Joaquín Entrialgo and Rubén Usamentiaga.
 
 It contains two notebooks which show statistics and plots for the results of the 16 experiments described in the paper. The input of these notebooks is a large .parquet file containing metadata about every request injected in the simulator for each of the 16 experiments. This parquet file can be downloaded from the releases section of this repository.
 
