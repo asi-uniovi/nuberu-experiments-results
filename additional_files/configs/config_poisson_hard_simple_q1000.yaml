@@ -21,13 +21,13 @@ workloads:
 - app: app0
   distribution:
     plugin_name: poisson
-    workloads_plugin_name: conlloovia
-    pickle_path: ../data/sol_conlloovia_1_hour_a_2_static_unpredictable_ts_9.p
+    num_reqs: 124427
+    time_slot_size: 3600
 - app: app1
   distribution:
     plugin_name: poisson
-    workloads_plugin_name: conlloovia
-    pickle_path: ../data/sol_conlloovia_1_hour_a_2_static_unpredictable_ts_9.p
+    num_reqs: 362587
+    time_slot_size: 3600
 load_balancer:
   plugin_name: simple
 cost_models:
